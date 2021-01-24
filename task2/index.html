@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Form</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet"> 
+</head>
+<body>
+    <form id="form">
+    <div id="registration">
+        Регистрация
+    </div>
+    <div id="divider">
+        <div id="rectangle">    
+        </div>        
+    </div>
+    <div id="email">
+        <div id="email_label">
+            E-Mail
+        </div>
+        <input type="email" id="email_input" placeholder="example@site.domain" required>
+    </div>
+    <div id="password">
+        <div id="enter_password">
+            <div id="enter_password_label">
+                Пароль
+            </div>
+            <input type="password" id="input_pass" placeholder="password" required>            
+        </div>
+        <div id="confim_pass">
+            <div id="confim_password_label">
+                Повторите пароль
+            </div>
+            <input type="password" id="confim_pass_input" placeholder="password" required>  
+        </div>
+    </div>  
+    <div id="fio">
+        <div id="fio_label">
+            ФИО
+        </div>
+        <input type="text" id="fio_input" placeholder="Игорев Игорь Игоревич" required>
+    </div>
+    <div id="age">
+    <div id="age_label">
+        Возраст
+    </div>
+        <input type="number" id="age_input" placeholder="18" required>
+    </div>
+    <div id="d_divider">
+        <div id="d_rectangle">    
+        </div>        
+    </div>
+    <div id="buttons">
+        <button type="submit" id="submit"><span id="button_text">Отправить</span></button>
+        <button type="button" id="cencel"><span id="cencel_text">Отмена</span></button>
+    </div>
+    </form>
+</body>
+</html>
